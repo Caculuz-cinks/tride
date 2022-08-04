@@ -15,7 +15,7 @@ export const Whatweoffer = () => {
     <section className='container font-semibold font-[400] mx-auto'>
       <h1 className='text-center text-[24px] md:text-[40px]'>What we offer</h1>
 
-      <div className='mt-[4rem] md:mt-[15rem] flex flex-col md:flex-row  justify-between'>
+      <div className='mt-[4rem] md:mt-[7rem] flex flex-col md:flex-row  justify-between'>
         <div data-aos="fade-right" className='max-w-[600px] flex flex-col gap-y-[1rem] '>
           <h1 className='text-[24px] md:text-[40px]'>
             <span className='text-yellow'>Dedicated account numbers  </span> for tithes, offerings and other projects
