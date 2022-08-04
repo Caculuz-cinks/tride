@@ -22,20 +22,21 @@ export const Whatweoffer = () => {
           </div>
         </div>
 
-        <div className='flex justify-center items-center mt-[1.5rem] md:mt-0  w-[90%] md:w-[100%]'>
+        <div className='mt-[1.5rem] md:mt-0   w-full'>
           <img src={section1} alt="" />
-        </div>
-
-        <div className='mt-[2rem] md:hidden'>
+          <div className='mt-[2rem] md:hidden'>
           <a href="/" className=' block text-center hover:bg-yellow transition-all hover:text-white bg-transparent border-2 text-[15px] text-yellow border-solid border-yellow px-[4rem] py-[0.9rem]'>Get Started</a>
         </div>
       </div>
+        </div>
+
+       
 
       {/* Section 2 */}
 
 
-      <div className='mt-[4rem] md:mt-[15rem] flex flex-col md:flex-row  justify-between'>
-        <div className='order-last md:order-first mt-[1.5rem] md:mt-0  '>
+      <div className='mt-[4rem] md:mt-[15rem] flex flex-col md:flex-row gap-x-[1rem] justify-between'>
+        <div className=' w-full order-last md:order-first mt-[1.5rem] md:mt-0  '>
           <img src={section2} alt="" />
           <div className='mt-[2rem] md:hidden'>
             <a href="/" className=' block text-center hover:bg-yellow transition-all hover:text-white bg-transparent border-2 text-[15px] text-yellow border-solid border-yellow px-[4rem] py-[0.9rem]'>Get Started</a>
@@ -59,8 +60,7 @@ export const Whatweoffer = () => {
       {/* Section 3 */}
 
 
-
-      <div className='mt-[4rem] md:mt-[15rem] flex flex-col md:flex-row  justify-between'>
+      <div className='mt-[4rem] md:mt-[15rem] flex flex-col md:flex-row gap-x-[1rem]  justify-between'>
         <div className='max-w-[600px] flex flex-col gap-y-[1rem] '>
           <h1 className='text-[24px] md:text-[40px]'>
             <span className='text-yellow'>Disburse money  </span> from each project seperately and keep track of who collected money
@@ -81,11 +81,12 @@ export const Whatweoffer = () => {
         </div>
       </div>
 
+
       {/* Section 4 */}
 
 
       <div className='mt-[4rem] md:mt-[15rem] flex flex-col md:flex-row  justify-between'>
-        <div className='order-last md:order-first mt-[1.5rem] md:mt-0  '>
+        <div className=' w-full order-last md:order-first mt-[1.5rem] md:mt-0  '>
           <img src={section4} alt="" />
           <div className='mt-[2rem] md:hidden'>
             <a href="/" className=' block text-center hover:bg-yellow transition-all hover:text-white bg-transparent border-2 text-[15px] text-yellow border-solid border-yellow px-[4rem] py-[0.9rem]'>Get Started</a>
