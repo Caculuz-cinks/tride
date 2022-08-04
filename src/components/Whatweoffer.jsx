@@ -9,7 +9,7 @@ export const Whatweoffer = () => {
     <section className='container font-semibold font-[400] mx-auto'>
       <h1 className='text-center text-[40px]'>What we offer</h1>
 
-      <div className='mt-[9rem] flex flex-col lg:flex-row  justify-between'>
+      <div className='mt-[15rem] flex flex-col lg:flex-row  justify-between'>
         <div className='max-w-[600px] flex flex-col gap-y-[1rem] '>
           <h1 className='text-[40px]'>
             <span className='text-yellow'>Dedicated account numbers  </span> for tithes, offerings and other projects
@@ -18,7 +18,7 @@ export const Whatweoffer = () => {
             or project, create as many bank accounts as you need in one click.</p>
 
           <div className='mt-[1rem]'>
-            <a href="/" className='bg-transparent border-2 text-[15px] text-yellow border-solid border-yellow px-[4rem] py-[0.9rem]'>Get Started</a>
+            <a href="/" className='hover:bg-yellow transition-all hover:text-white bg-transparent border-2 text-[15px] text-yellow border-solid border-yellow px-[4rem] py-[0.9rem]'>Get Started</a>
           </div>
         </div>
 
@@ -29,7 +29,7 @@ export const Whatweoffer = () => {
 
       {/* Section 2 */}
 
-      <div className='mt-[9rem] flex flex-col lg:flex-row  justify-between'>
+      <div className='mt-[15rem] flex flex-col lg:flex-row  justify-between'>
 
         <div className=''>
           <img src={section2} alt="" />
@@ -42,7 +42,7 @@ export const Whatweoffer = () => {
           <p className='font-regular text-neutral max-w-[500px]'>Memebers or partners can pay for specific purposes online with their cards, directly into your dedicated account, and all transactions are recorded and calculated together.</p>
 
           <div className='mt-[1rem]'>
-            <a href="/" className='bg-transparent border-2 text-[15px] text-yellow border-solid border-yellow px-[4rem] py-[0.9rem]'>Get Started</a>
+            <a href="/" className='hover:bg-yellow transition-all hover:text-white bg-transparent border-2 text-[15px] text-yellow border-solid border-yellow px-[4rem] py-[0.9rem]'>Get Started</a>
           </div>
         </div>
       </div>
@@ -50,7 +50,7 @@ export const Whatweoffer = () => {
 
 
 
-      <div className='mt-[9rem] flex flex-col lg:flex-row  justify-between'>
+      <div className='mt-[15rem] flex flex-col lg:flex-row  justify-between'>
 
         <div className='max-w-[600px] flex flex-col gap-y-[1rem] '>
           <h1 className='text-[40px]'>
@@ -64,7 +64,7 @@ export const Whatweoffer = () => {
           </p>
 
           <div className='mt-[1rem]'>
-            <a href="/" className='bg-transparent border-2 text-[15px] text-yellow border-solid border-yellow px-[4rem] py-[0.9rem]'>Get Started</a>
+            <a href="/" className='hover:bg-yellow transition-all hover:text-white bg-transparent border-2 text-[15px] text-yellow border-solid border-yellow px-[4rem] py-[0.9rem]'>Get Started</a>
           </div>
         </div>
 
@@ -73,7 +73,7 @@ export const Whatweoffer = () => {
         </div>
       </div>
 
-      <div className='mt-[9rem] flex flex-col lg:flex-row  justify-between'>
+      <div className='mt-[15rem] flex flex-col lg:flex-row  justify-between'>
       <div className=''>
           <img src={section4} alt="" />
         </div>
@@ -91,16 +91,16 @@ export const Whatweoffer = () => {
           </p>
 
           <div className='mt-[1rem]'>
-            <a href="/" className='bg-transparent border-2 text-[15px] text-yellow border-solid border-yellow px-[4rem] py-[0.9rem]'>Get Started</a>
+            <a href="/" className='hover:bg-yellow transition-all hover:text-white bg-transparent border-2 text-[15px] text-yellow border-solid border-yellow px-[4rem] py-[0.9rem]'>Get Started</a>
           </div>
         </div>
       </div>
 
-      <div className='mt-[9rem] pb-[9rem] text-center'>
+      <div className='mt-[9rem]  text-center'>
         <h1 className='font-semibold text-[60px]'>Keep accurate record of your organization finances</h1>
         <p className='text-neutral font-regular text-[20px]'>Accountability, ease and speed while managing finances </p>
         <div className='mt-[2rem]'>
-        <a href="/" className='bg-yellow px-[2rem] py-[0.9rem]'>Get started today</a>
+        <a href="/" className='hover:bg-yellow transition-all hover:text-white bg-yellow px-[2rem] py-[0.9rem]'>Get started today</a>
         </div>
       </div>
 
