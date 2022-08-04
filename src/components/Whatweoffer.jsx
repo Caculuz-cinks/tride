@@ -78,7 +78,7 @@ export const Whatweoffer = () => {
           </div>
         </div>
 
-        <div data-aos="fade-left" className='flex justify-center items-center mt-[1.5rem] md:mt-0  '>
+        <div data-aos="fade-left" className=' mt-[1.5rem] md:mt-0  '>
           <img src={section3} alt="" />
           <div className='mt-[2rem] md:hidden'>
           <a href="/" className=' block text-center hover:bg-yellow transition-all hover:text-white bg-transparent border-2 text-[15px] text-yellow border-solid border-yellow px-[4rem] py-[0.9rem]'>Get Started</a>
