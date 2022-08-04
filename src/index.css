@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+
+@font-face {
+    font-family: "semibold";
+    src: url("../public/atyp/semibold.ttf");
+  }
+@font-face {
+    font-family: "medium";
+    src: url("../public/atyp/medium.ttf");
+  }
+@font-face {
+    font-family: "regular";
+    src: url("../public/atyp/regular.ttf") ;
+  }
+
+}
