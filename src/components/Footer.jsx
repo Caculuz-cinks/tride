@@ -4,7 +4,7 @@ import { footer } from '../data';
 export const Footer = () => {
     const {company, resources, socials} = footer;
   return (
-    <section className='container py-2 font-semibold font-[400] mt-[9rem] mx-auto'>
+    <section className='container py-2 font-semibold font-[400] mt-[7rem] md:mt-[15rem] mx-auto'>
         <div className='flex flex-col md:flex-row md:gap-x-[100px]'>
         <div>
         <img src={logo} className='w-[80px]' alt="" />
