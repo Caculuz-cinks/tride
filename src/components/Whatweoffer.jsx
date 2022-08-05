@@ -15,7 +15,7 @@ export const Whatweoffer = () => {
     <section className='md:pt-[5rem] container font-semibold font-[400] mx-auto'>
       <h1 className='text-center text-[24px] md:text-[40px]'>What we offer</h1>
 
-      <div className='mt-[4rem] md:mt-[7rem] flex flex-col md:flex-row  justify-between'>
+      <div data-aos-delay="500" className='mt-[4rem] md:mt-[7rem] flex flex-col md:flex-row  justify-between'>
         <div data-aos="fade-right" className='max-w-[600px] flex flex-col gap-y-[1rem] '>
           <h1 className='text-[24px] md:text-[40px]'>
             <span className='text-yellow'>Dedicated account numbers  </span> for tithes, offerings and other projects
@@ -41,7 +41,7 @@ export const Whatweoffer = () => {
       {/* Section 2 */}
 
 
-      <div className='mt-[4rem] md:mt-[15rem] flex flex-col md:flex-row gap-x-[1rem] justify-between'>
+      <div data-aos-delay="500"  className='mt-[4rem] md:mt-[15rem] flex flex-col md:flex-row gap-x-[1rem] justify-between'>
         <div data-aos="fade-right" className=' w-full order-last md:order-first mt-[1.5rem] md:mt-0  '>
           <img src={section2} alt="" />
           <div className='mt-[2rem] md:hidden'>
@@ -66,7 +66,7 @@ export const Whatweoffer = () => {
       {/* Section 3 */}
 
 
-      <div className='mt-[4rem] md:mt-[15rem] flex flex-col md:flex-row gap-x-[1rem]  justify-between'>
+      <div data-aos-delay="500"  className='mt-[4rem] md:mt-[15rem] flex flex-col md:flex-row gap-x-[1rem]  justify-between'>
         <div data-aos="fade-right" className='max-w-[600px] flex flex-col gap-y-[1rem] '>
           <h1 className='text-[24px] md:text-[40px]'>
             <span className='text-yellow'>Disburse money  </span> from each project seperately and keep track of who collected money
@@ -92,7 +92,7 @@ export const Whatweoffer = () => {
       {/* Section 4 */}
 
 
-      <div className='mt-[4rem] md:mt-[15rem] flex flex-col md:flex-row  justify-between'>
+      <div data-aos-delay="500"  className='mt-[4rem] md:mt-[15rem] flex flex-col md:flex-row  justify-between'>
         <div data-aos="fade-right" className=' w-full order-last md:order-first mt-[1.5rem] md:mt-0  '>
           <img src={section4} alt="" />
           <div className='mt-[2rem] md:hidden'>
@@ -106,7 +106,7 @@ export const Whatweoffer = () => {
               Assign signatories
             </span>   to your accounts, and get money for projects approved faster.
           </h1>
-          <p className='text-[14px] md:text-[17px] font-regular text-neutral max-w-[500px]'>Church administrators do not need to seek signatories and wait for days to get money apporved for projects, from the app, just send the request
+          <p className='text-[14px] md:text-[17px] font-regular text-neutral max-w-[500px]'>Organization administrators do not need to seek signatories and wait for days to get money apporved for projects, from the app, just send the request
             to use money and get it approved from the assigned signatories in minutes.</p>
 
           <div className='mt-[1rem] hidden md:block'>
@@ -117,8 +117,8 @@ export const Whatweoffer = () => {
 
 
 
-      <div data-aos="fade-up" className='mt-[7rem] md:mt-[15rem]  text-center'>
-        <h1 className='font-semibold text-[30px] md:text-[60px]'>Keep accurate record of your organization finances</h1>
+      <div data-aos-delay="400" data-aos="fade-up" className='mt-[7rem] md:mt-[15rem]  text-center'>
+        <h1 className='font-semibold text-[25px] md:text-[60px]'>Keep accurate record of your organization finances</h1>
         <p className='text-neutral font-regular text-[20px]'>Accountability, ease and speed while managing finances </p>
         <div className='mt-[2rem]'>
           <a href="/" className='font-regular hover:bg-yellow transition-all hover:text-white bg-yellow px-[2rem] py-[0.9rem]'>Get started today</a>
