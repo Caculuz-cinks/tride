@@ -12,7 +12,7 @@ export const Whatweoffer = () => {
     AOS.refresh();
   }, []);
   return (
-    <section className='pt-[5rem] container font-semibold font-[400] mx-auto'>
+    <section className='md:pt-[5rem] container font-semibold font-[400] mx-auto'>
       <h1 className='text-center text-[24px] md:text-[40px]'>What we offer</h1>
 
       <div className='mt-[4rem] md:mt-[7rem] flex flex-col md:flex-row  justify-between'>
@@ -24,14 +24,14 @@ export const Whatweoffer = () => {
             or project, create as many bank accounts as you need in one click.</p>
 
           <div className='mt-[1rem] hidden md:block'>
-            <a href="/" className='hover:bg-yellow transition-all hover:text-white bg-transparent border-2 text-[15px] text-yellow border-solid border-yellow px-[4rem] py-[0.9rem]'>Get Started</a>
+            <a href="/" className='font-regular hover:bg-yellow transition-all hover:text-white bg-transparent border-2 text-[15px] text-yellow border-solid border-yellow px-[4rem] py-[0.9rem]'>Get Started</a>
           </div>
         </div>
 
         <div data-aos="fade-left" className='mt-[1.5rem] md:mt-0   w-full'>
           <img src={section1} alt="" />
           <div className='mt-[2rem] md:hidden'>
-          <a href="/" className=' block text-center hover:bg-yellow transition-all hover:text-white bg-transparent border-2 text-[15px] text-yellow border-solid border-yellow px-[4rem] py-[0.9rem]'>Get Started</a>
+          <a href="/" className='font-regular block text-center hover:bg-yellow transition-all hover:text-white bg-transparent border-2 text-[15px] text-yellow border-solid border-yellow px-[4rem] py-[0.9rem]'>Get Started</a>
         </div>
       </div>
         </div>
@@ -45,7 +45,7 @@ export const Whatweoffer = () => {
         <div data-aos="fade-right" className=' w-full order-last md:order-first mt-[1.5rem] md:mt-0  '>
           <img src={section2} alt="" />
           <div className='mt-[2rem] md:hidden'>
-            <a href="/" className=' block text-center hover:bg-yellow transition-all hover:text-white bg-transparent border-2 text-[15px] text-yellow border-solid border-yellow px-[4rem] py-[0.9rem]'>Get Started</a>
+            <a href="/" className='font-regular block text-center hover:bg-yellow transition-all hover:text-white bg-transparent border-2 text-[15px] text-yellow border-solid border-yellow px-[4rem] py-[0.9rem]'>Get Started</a>
           </div>
         </div>
 
@@ -58,7 +58,7 @@ export const Whatweoffer = () => {
             and all transactions are recorded and calculated together.</p>
 
           <div className='mt-[1rem] hidden md:block'>
-            <a href="/" className='hover:bg-yellow transition-all hover:text-white bg-transparent border-2 text-[15px] text-yellow border-solid border-yellow px-[4rem] py-[0.9rem]'>Get Started</a>
+            <a href="/" className='font-regular hover:bg-yellow transition-all hover:text-white bg-transparent border-2 text-[15px] text-yellow border-solid border-yellow px-[4rem] py-[0.9rem]'>Get Started</a>
           </div>
         </div>
 
@@ -74,14 +74,14 @@ export const Whatweoffer = () => {
           <p className='text-[14px] md:text-[17px] font-regular text-neutral max-w-[500px]'>When it is time to make use of funds, send money to anyone from each project account balance, as supposed to from the whole organization account.</p>
 
           <div className='mt-[1rem] hidden md:block'>
-            <a href="/" className='hover:bg-yellow transition-all hover:text-white bg-transparent border-2 text-[15px] text-yellow border-solid border-yellow px-[4rem] py-[0.9rem]'>Get Started</a>
+            <a href="/" className='font-regular hover:bg-yellow transition-all hover:text-white bg-transparent border-2 text-[15px] text-yellow border-solid border-yellow px-[4rem] py-[0.9rem]'>Get Started</a>
           </div>
         </div>
 
         <div data-aos="fade-left" className=' mt-[1.5rem] md:mt-0  '>
           <img src={section3} alt="" />
           <div className='mt-[2rem] md:hidden'>
-          <a href="/" className=' block text-center hover:bg-yellow transition-all hover:text-white bg-transparent border-2 text-[15px] text-yellow border-solid border-yellow px-[4rem] py-[0.9rem]'>Get Started</a>
+          <a href="/" className=' font-regular block text-center hover:bg-yellow transition-all hover:text-white bg-transparent border-2 text-[15px] text-yellow border-solid border-yellow px-[4rem] py-[0.9rem]'>Get Started</a>
         </div>
         </div>
 
@@ -96,7 +96,7 @@ export const Whatweoffer = () => {
         <div data-aos="fade-right" className=' w-full order-last md:order-first mt-[1.5rem] md:mt-0  '>
           <img src={section4} alt="" />
           <div className='mt-[2rem] md:hidden'>
-            <a href="/" className=' block text-center hover:bg-yellow transition-all hover:text-white bg-transparent border-2 text-[15px] text-yellow border-solid border-yellow px-[4rem] py-[0.9rem]'>Get Started</a>
+            <a href="/" className=' font-regular block text-center hover:bg-yellow transition-all hover:text-white bg-transparent border-2 text-[15px] text-yellow border-solid border-yellow px-[4rem] py-[0.9rem]'>Get Started</a>
           </div>
         </div>
 
@@ -110,7 +110,7 @@ export const Whatweoffer = () => {
             to use money and get it approved from the assigned signatories in minutes.</p>
 
           <div className='mt-[1rem] hidden md:block'>
-            <a href="/" className='hover:bg-yellow transition-all hover:text-white bg-transparent border-2 text-[15px] text-yellow border-solid border-yellow px-[4rem] py-[0.9rem]'>Get Started</a>
+            <a href="/" className=' font-regular hover:bg-yellow transition-all hover:text-white bg-transparent border-2 text-[15px] text-yellow border-solid border-yellow px-[4rem] py-[0.9rem]'>Get Started</a>
           </div>
         </div>
       </div>
@@ -121,7 +121,7 @@ export const Whatweoffer = () => {
         <h1 className='font-semibold text-[30px] md:text-[60px]'>Keep accurate record of your organization finances</h1>
         <p className='text-neutral font-regular text-[20px]'>Accountability, ease and speed while managing finances </p>
         <div className='mt-[2rem]'>
-          <a href="/" className='hover:bg-yellow transition-all hover:text-white bg-yellow px-[2rem] py-[0.9rem]'>Get started today</a>
+          <a href="/" className='font-regular hover:bg-yellow transition-all hover:text-white bg-yellow px-[2rem] py-[0.9rem]'>Get started today</a>
         </div>
       </div>
 

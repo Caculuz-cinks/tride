@@ -5,7 +5,7 @@ import { Whatweoffer } from "./components/Whatweoffer";
 
 function App() {
   return (
-    <div className="bg-black font-regular overflow-x-hidden text-white w-full  mx-auto">
+    <div className="bg-black font-regular overflow-x-hidden text-white w-full mx-auto">
       <Navbar />
       <Hero />
       <Whatweoffer />
