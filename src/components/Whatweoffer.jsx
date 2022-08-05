@@ -12,7 +12,7 @@ export const Whatweoffer = () => {
     AOS.refresh();
   }, []);
   return (
-    <section className='container font-semibold font-[400] mx-auto'>
+    <section className='pt-[5rem] container font-semibold font-[400] mx-auto'>
       <h1 className='text-center text-[24px] md:text-[40px]'>What we offer</h1>
 
       <div className='mt-[4rem] md:mt-[7rem] flex flex-col md:flex-row  justify-between'>

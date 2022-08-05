@@ -13,7 +13,7 @@ export const Hero = () => {
         </div>
 
       </section>
-      <section className='container mb-[5rem] font-semibold font-[400] py-[2rem] md:py-[2rem] mx-auto mt-[20px]'>
+      <section className='container mb-[8rem] font-semibold font-[400] py-[2rem] md:py-[2rem] mx-auto mt-[20px]'>
         <div className='flex flex-row gap-x-[100px]'>
           <div className='max-w-[500px]'>
             <h1 className='text-white text-[40px]  md:text-[60px] text-left'>
@@ -43,7 +43,7 @@ export const Hero = () => {
               <div className=''>
                 <img src={hero1} className="w-[100%]" alt="" />
               </div>
-              <div className='absolute bottom-[1rem] right-[0.3rem]'>
+              <div className='absolute -bottom-[10rem] -right-[6rem]'>
                 <img className='' src={hero2} alt="" />
               </div>
 
