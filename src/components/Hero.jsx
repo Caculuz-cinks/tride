@@ -1,9 +1,16 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import hero1 from '../assets/hero1.png'
 import hero2 from '../assets/hero2.png'
 import bg from '../assets/Hero_circle.svg';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export const Hero = () => {
+  
+  useEffect(() => {
+    AOS.init();
+    
+  }, []);
   return (
     <>
       <section className='relative'>
@@ -14,7 +21,7 @@ export const Hero = () => {
       </section>
       <section className='relative z-[999] container mb-[2rem] md:mb-[8rem] font-semibold font-[400] py-[2rem] md:py-[2rem] mx-auto mt-[20px]'>
         <div className='flex flex-col md:flex-row gap-x-[100px]'>
-          <div className=''>
+          <div data-aos="fade-right" className=''>
             <h1 className='text-white text-[40px] max-w-[500px]  md:text-[60px] text-left'>
               Banking solution
               for <span className='text-yellow'>churches</span>
@@ -43,7 +50,7 @@ export const Hero = () => {
 
           </div>
 
-          <div>
+          <div data-aos-delay="500" data-aos="fade-left">
             <div className='relative hidden lg:flex flex-col'>
               <div className=''>
                 <img src={hero1} className="w-[100%]" alt="" />
