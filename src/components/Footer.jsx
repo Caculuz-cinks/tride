@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/Tide logo 2.png';
+import logo from '../assets/Logo_white.svg';
 import { footer } from '../data';
 export const Footer = () => {
     const {company, resources, socials} = footer;

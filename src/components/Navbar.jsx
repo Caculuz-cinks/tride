@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/Tide logo 2.png';
+import logo from '../assets/Logo_white.svg';
 import {FaBars} from 'react-icons/fa';
 export const Navbar = () => {
   return (
