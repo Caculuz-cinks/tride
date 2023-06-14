@@ -19,11 +19,11 @@ export const Hero = () => {
         </div>
 
       </section>
-      <section className='relative z-[999] container mb-[2rem] md:mb-[8rem] font-semibold font-[300] py-[2rem] md:py-[2rem] mx-auto mt-[20px]'>
+      <section className='relative z-[999] container mb-[2rem] md:mb-[8rem] font-medium font-[300] py-[2rem] md:py-[2rem] mx-auto mt-[20px]'>
         <div className='flex flex-col md:flex-row gap-x-[100px]'>
           <div data-aos="fade-right" className=''>
-            <h1 className='text-white text-[30px] max-w-[500px]  md:text-[50px] text-left'>
-              Get separate bank accounts for every project in your organization <span className='text-yellow'>churches</span>
+            <h1 className='text-white text-[25px] max-w-[500px]  md:text-[50px] text-left'>
+              Get separate bank accounts for every project in your organization
             </h1>
             <p className=' md:max-w-[500px] font-regular font-[400] text-neutral'>
               Collect offerings, seeds and donations with separate account numbers, 
