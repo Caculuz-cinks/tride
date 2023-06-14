@@ -8,9 +8,9 @@ export const Navbar = () => {
         <div>
         <img src={logo} className='w-[80px]' alt="" />
         </div>
-        <div className='hidden md:block'>
+{ /* <div className='hidden md:block'>
         <a href="/" className='bg-yellow  px-[1.3rem] py-[0.9rem]'>Create an account</a>
-        </div>
+        </div> */ }
         <div className='cursor-pointer md:hidden'>
           <FaBars />
         </div>
