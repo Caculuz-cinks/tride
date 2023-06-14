@@ -23,15 +23,12 @@ export const Hero = () => {
         <div className='flex flex-col md:flex-row gap-x-[100px]'>
           <div data-aos="fade-right" className=''>
             <h1 className='text-white text-[40px] max-w-[500px]  md:text-[60px] text-left'>
-              Banking solution
-              for <span className='text-yellow'>churches</span>
+              Get separate bank accounts for every project in your organization <span className='text-yellow'>churches</span>
             </h1>
             <p className=' md:max-w-[500px] font-regular font-[400] text-neutral'>
-              Collect offerings, tithes, seeds and project donations with
-              <span className='text-yellow'> seperate account numbers, inside one main account
-              </span>  and disburse
-              money from each project,
-              making it possible to manage all your organization finances from one place.
+              Collect offerings, seeds and donations with separate account numbers, 
+                inside one main account and disburse money from each project separately, 
+                  making it possible to manage all your organization finances from one place.
             </p>
             <div className='flex flex-col items-center justify-between md:flex-row'>
               <div className='hidden md:block mt-[2rem]'>
