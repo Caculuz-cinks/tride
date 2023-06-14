@@ -20,9 +20,9 @@ export const Hero = () => {
 
       </section>
       <section className='relative z-[999] container mb-[2rem] md:mb-[8rem] font-medium font-[300] py-[2rem] md:py-[2rem] mx-auto mt-[20px]'>
-        <div className='flex flex-col md:flex-row gap-x-[100px]'>
+        <div className='flex flex-col md:flex-row gap-x-[50px]'>
           <div data-aos="fade-right" className=''>
-            <h1 className='text-white text-[25px] max-w-[500px]  md:text-[60px] text-left'>
+            <h1 className='text-white text-[25px] max-w-[500px]  md:text-[45px] text-left'>
               Get separate bank accounts for every project in your organization
             </h1>
             <p className=' md:max-w-[500px] font-regular font-[400] text-neutral'>
