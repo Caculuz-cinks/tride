@@ -18,7 +18,7 @@ export const Whatweoffer = () => {
       <div data-aos-delay="500" className='mt-[4rem] md:mt-[7rem] flex flex-col md:flex-row  justify-between'>
         <div data-aos="fade-right" className='max-w-[600px] flex flex-col gap-y-[1rem] '>
           <h1 className='text-[24px] md:text-[40px]'>
-            <span className='text-yellow'>Dedicated account numbers  </span> for tithes, offerings and other projects
+           Dedicated account numbers for offerings, donations and other projects
           </h1>
           <p className='text-[14px] md:text-[17px] font-regular text-neutral max-w-[500px]'>No need to go to the bank to open an account just for one programme
             or project, create as many bank accounts as you need in one click.</p>
@@ -41,7 +41,7 @@ export const Whatweoffer = () => {
       {/* Section 2 */}
 
 
-      <div data-aos-delay="500"  className='mt-[4rem] md:mt-[15rem] flex flex-col md:flex-row gap-x-[1rem] justify-between'>
+      /* <div data-aos-delay="500"  className='mt-[4rem] md:mt-[15rem] flex flex-col md:flex-row gap-x-[1rem] justify-between'>
         <div data-aos="fade-right" className=' w-full order-last md:order-first mt-[1.5rem] md:mt-0  '>
           <img src={section2} alt="" />
           <div className='mt-[2rem] md:hidden'>
@@ -62,16 +62,17 @@ export const Whatweoffer = () => {
           </div>
         </div>
 
-      </div>
+      </div> */
+
       {/* Section 3 */}
 
 
       <div data-aos-delay="500"  className='mt-[4rem] md:mt-[15rem] flex flex-col md:flex-row gap-x-[1rem]  justify-between'>
         <div data-aos="fade-right" className='max-w-[600px] flex flex-col gap-y-[1rem] '>
           <h1 className='text-[24px] md:text-[40px]'>
-            <span className='text-yellow'>Disburse money  </span> from each project seperately and keep track of who collected money
+            Spend only the amount donated for a project
           </h1>
-          <p className='text-[14px] md:text-[17px] font-regular text-neutral max-w-[500px]'>When it is time to make use of funds, send money to anyone from each project account balance, as supposed to from the whole organization account.</p>
+          <p className='text-[14px] md:text-[17px] font-regular text-neutral max-w-[500px]'>When it is time to make use of funds, send money to anyone from each project account, you’ll only spend the exact amount donated for each project no more confusion on transfer descriptions.</p>
 
           <div className='mt-[1rem] hidden md:block'>
             <a href="/" className='font-regular hover:bg-yellow transition-all hover:text-white bg-transparent border-2 text-[15px] text-yellow border-solid border-yellow px-[4rem] py-[0.9rem]'>Get Started</a>
@@ -102,12 +103,9 @@ export const Whatweoffer = () => {
 
         <div data-aos="fade-left" className=' max-w-[600px] flex flex-col gap-y-[1rem] '>
           <h1 className='text-[24px] md:text-[40px]'>
-            <span className='text-yellow'>
-              Assign signatories
-            </span>   to your accounts, and get money for projects approved faster.
+            Assign signatories to your accounts digitally, and get money for projects approved faster.
           </h1>
-          <p className='text-[14px] md:text-[17px] font-regular text-neutral max-w-[500px]'>Organization administrators do not need to seek signatories and wait for days to get money apporved for projects, from the app, just send the request
-            to use money and get it approved from the assigned signatories in minutes.</p>
+          <p className='text-[14px] md:text-[17px] font-regular text-neutral max-w-[500px]'>Your administrators do not need to get physical signatories and wait for days to get money approved for projects, from the app, just send the request to use money and get it approved from the assigned signatories in minutes.</p>
 
           <div className='mt-[1rem] hidden md:block'>
             <a href="/" className=' font-regular hover:bg-yellow transition-all hover:text-white bg-transparent border-2 text-[15px] text-yellow border-solid border-yellow px-[4rem] py-[0.9rem]'>Get Started</a>
