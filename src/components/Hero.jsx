@@ -20,7 +20,7 @@ export const Hero = () => {
 
       </section>
       <section className='relative z-[999] container mb-[2rem] md:mb-[8rem] font-medium font-[300] py-[2rem] md:py-[2rem] mx-auto mt-[20px]'>
-        <div className='flex flex-col md:flex-row gap-x-[50px]'>
+        <div className='flex flex-col md:flex-row gap-x-[100px]'>
           <div data-aos="fade-right" className=''>
             <h1 className='text-white text-[25px] max-w-[500px]  md:text-[45px] text-left'>
               Get separate bank accounts for every project in your organization
@@ -32,17 +32,17 @@ export const Hero = () => {
             </p>
             <div className='flex flex-col items-center justify-between md:flex-row'>
               <div className='hidden md:block mt-[2rem]'>
-                <a href="/" className=' bg-yellow font-regular px-[1.3rem] py-[0.9rem]'>Create an account</a>
+                <a href="/" className=' bg-yellow font-regular px-[1.3rem] py-[0.9rem]'>Book a meeting with our team</a>
               </div>
               <div className='md:hidden w-full block mt-[2rem]'>
-                <a href="/" className=' text-center block w-full bg-yellow font-regular px-[1.3rem] py-[0.9rem]'>Create an account</a>
+                <a href="/" className=' text-center block w-full bg-yellow font-regular px-[1.3rem] py-[0.9rem]'>Book a meeting with our team</a>
               </div>
-              <div className='hidden md:block mt-[2rem]'>
+{ /* <div className='hidden md:block mt-[2rem]'>
                 <a className="  text-yellow font-regular  px-[1.3rem] py-[0.9rem] underline" href="#">Book a meeting with our team</a>
               </div>
               <div className='md:hidden w-full block mt-[2rem]'>
                 <a className="text-center text-yellow block font-regular  px-[1.3rem] py-[0.9rem] underline" href="#">Book a meeting with our team</a>
-              </div>
+              </div> */}
             </div>
 
           </div>
