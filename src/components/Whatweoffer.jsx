@@ -41,7 +41,7 @@ export const Whatweoffer = () => {
       {/* Section 2 */}
 
 
-      /* <div data-aos-delay="500"  className='mt-[4rem] md:mt-[15rem] flex flex-col md:flex-row gap-x-[1rem] justify-between'>
+{/* <div data-aos-delay="500"  className='mt-[4rem] md:mt-[15rem] flex flex-col md:flex-row gap-x-[1rem] justify-between'>
         <div data-aos="fade-right" className=' w-full order-last md:order-first mt-[1.5rem] md:mt-0  '>
           <img src={section2} alt="" />
           <div className='mt-[2rem] md:hidden'>
@@ -62,7 +62,7 @@ export const Whatweoffer = () => {
           </div>
         </div>
 
-      </div> */
+      </div> */}
 
       {/* Section 3 */}
 
